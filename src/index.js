@@ -10,7 +10,7 @@ import {
   N_PatternWildcard, N_PatternStructure, N_PatternTuple, N_PatternTimeout
 } from './ast.js';
 
-const DEFAULT_INFINITE_LOOP_TIMEOUT = 3000; /* millisecs */
+const DEFAULT_INFINITE_LOOP_TIMEOUT = 20000; /* millisecs */
 const DEFAULT_LANGUAGE = 'es';
 
 /* load a board in the API format into a fresh RuntimeState */
